@@ -122,7 +122,7 @@ while (lives > 0) {
         }
 
         // Check if lives are zero
-        if (lives == 1) {
+        if (lives == 0) {
             printf("Game over! The word was: %s\n", word);
             break;
         }
@@ -181,7 +181,7 @@ void hangman(int lives) {
             printf("     |/      |  \n");
             printf("     |      (_) \n");
             printf("     |       | \n");
-            printf("     |         \n");
+            printf("     |       |  \n");
             printf("     |        \n");
             printf("     |          \n"); 
             printf("_____|___       \n");
